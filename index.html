@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galery || Alfajjar</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo.png" />
 
     <!-- Css default -->
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -12,17 +13,20 @@
     <script src="https://unpkg.com/feather-icons"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Link Animasi saat di scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   </head>
   <body>
     <!-- Navbar Selesai -->
 
     <nav class="navbar">
-      <div class="navbar-brand">
+      <div class="navbar-brand" data-aos="fade-right" data-aos-duration="2000">
         <img src="./img/profil.jpg" alt="Logo" />
         <h5>Portofolio || Alfajjar</h5>
       </div>
 
-      <div class="menu-icon" id="menu-icon">
+      <div class="menu-icon" id="menu-icon" data-aos="fade-left" data-aos-duration="2000">
         <i data-feather="menu"></i>
       </div>
 
@@ -56,54 +60,63 @@
     <section class="galery">
       <div class="galery-item">
         <!-- Pribadi -->
-        <img src="./img/PRIBADI0.jpg" alt="ftPrib">
-        <img src="./img/PRIBADI1.jpg" alt="ftPrib">
-        <img src="./img/PRIBADI2.jpg" alt="ftPrib">
-        <img src="./img/PRIBADI3.jpg" alt="ftPrib">
+        <img src="./img/PRIBADI0.jpg" alt="ftPrib" />
+        <img src="./img/PRIBADI1.jpg" alt="ftPrib" />
+        <img src="./img/PRIBADI2.jpg" alt="ftPrib" />
+        <img src="./img/PRIBADI3.jpg" alt="ftPrib" />
         <!-- SMK -->
-        <img src="./img/SMK0.jpg" alt="ftSMK">
-        <img src="./img/SMK (1).jpg" alt="ftSMK">
-        <img src="./img/SMK (2).jpg" alt="ftSMK">
-        <img src="./img/SMK3.jpg" alt="ftSMK">
-        <img src="./img/SMK4.jpg" alt="ftSMK">
-        <img src="./img/SMK5.jpg" alt="ftSMK">
-        <img src="./img/SMK6.jpg" alt="ftSMK">
-        <img src="./img/SMK7.jpg" alt="ftSMK">
+        <img src="./img/SMK0.jpg" alt="ftSMK" />
+        <img src="./img/SMK (1).jpg" alt="ftSMK" />
+        <img src="./img/SMK (2).jpg" alt="ftSMK" />
+        <img src="./img/SMK3.jpg" alt="ftSMK" />
+        <img src="./img/SMK4.jpg" alt="ftSMK" />
+        <img src="./img/SMK5.jpg" alt="ftSMK" />
+        <img src="./img/SMK6.jpg" alt="ftSMK" />
+        <img src="./img/SMK7.jpg" alt="ftSMK" />
         <!-- SPM -->
-        <img src="./img/SPM7.jpg" alt="ftSPM">
-        <img src="./img/SPM3.jpg" alt="ftSPM">
-        <img src="./img/SPM4.jpg" alt="ftSPM">
-        <img src="./img/SPM5.jpg" alt="ftSPM">
-        <img src="./img/SPM6.jpg" alt="ftSPM">
+        <img src="./img/SPM7.jpg" alt="ftSPM" />
+        <img src="./img/SPM3.jpg" alt="ftSPM" />
+        <img src="./img/SPM4.jpg" alt="ftSPM" />
+        <img src="./img/SPM5.jpg" alt="ftSPM" />
+        <img src="./img/SPM6.jpg" alt="ftSPM" />
         <!-- Paskibra -->
-        <img src="./img/PASKIB-1.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB0.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB1.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB2.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB3.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB4.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB5.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB6.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB7.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB8.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB9.jpg" alt="ftPaskibra">
-        <img src="./img/PASKIB10.jpg" alt="ftPaskibra">
+        <img src="./img/PASKIB-1.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB0.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB1.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB2.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB3.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB4.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB5.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB6.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB7.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB8.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB9.jpg" alt="ftPaskibra" />
+        <img src="./img/PASKIB10.jpg" alt="ftPaskibra" />
         <!-- Paslibra A5 -->
-        <img src="./img/AK5.jpg" alt="ftPaskibra">
-        <img src="./img/AK5 (2).jpg" alt="ftPaskibra">
-        <img src="./img/AK5 (3).jpg" alt="ftPaskibra">
-        <img src="./img/AK5 (4).jpg" alt="ftPaskibra">
+        <img src="./img/AK5.jpg" alt="ftPaskibra" />
+        <img src="./img/AK5 (2).jpg" alt="ftPaskibra" />
+        <img src="./img/AK5 (3).jpg" alt="ftPaskibra" />
+        <img src="./img/AK5 (4).jpg" alt="ftPaskibra" />
       </div>
     </section>
 
     <section class="sosial-media">
       <div class="item-sosmed">
-        <a href="https://github.com/alfajarjaya"><i data-feather="github"></i></a>
-        <a href="https://www.linkedin.com/in/alfajjar-putra-4a2a83290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i data-feather="linkedin"></i></a>
-        <a href="https://instagram.com/bang_jarrrz"><i data-feather="instagram"></i></a>
+        <a href="https://github.com/alfajarjaya"
+          ><i data-feather="github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/alfajjar-putra-4a2a83290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          ><i data-feather="linkedin"></i
+        ></a>
+        <a href="https://instagram.com/bang_jarrrz"
+          ><i data-feather="instagram"></i
+        ></a>
         <a href="https://t.me/Njir_18"><i data-feather="message-circle"></i></a>
-        <a href="https://x.com/PutraSnjaya?t=z39qpVDJ1jPKyHjnOZqMTQ&s=09"><i data-feather="x"></i></a>
+        <a href="https://x.com/PutraSnjaya?t=z39qpVDJ1jPKyHjnOZqMTQ&s=09"
+          ><i data-feather="x"></i
+        ></a>
       </div>
     </section>
 
@@ -125,6 +138,11 @@
     <!-- Feather Icon -->
     <script>
       feather.replace();
+    </script>
+
+    <!-- AOS -->
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
