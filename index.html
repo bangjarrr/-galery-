@@ -17,16 +17,16 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   </head>
-  <body>
+  <body class="dark-theme light-theme">
     <!-- Navbar Selesai -->
 
-    <nav class="navbar">
+    <nav class="navbar navbar-dark navbar-light" id="navbar">
       <div class="navbar-brand" data-aos="fade-right" data-aos-duration="2000">
         <img src="./img/profil.jpg" alt="Logo" />
         <h5>Portofolio || Alfajjar</h5>
       </div>
 
-      <div class="menu-icon" id="menu-icon" data-aos="fade-left" data-aos-duration="2000">
+      <div class="menu-icon" id="menu-icon">
         <i data-feather="menu"></i>
       </div>
 
@@ -58,6 +58,17 @@
     <!-- GAlery start -->
 
     <section class="galery">
+      <div class="home-brand" data-aos="fade-down" data-aos-duration="2000">
+        <img src="./img/logo.png" alt="Fajar" width="5%" />
+        <h4>Fajar Pages💫</h4>
+        <button id="lightMode">
+          <i data-feather="sun"></i>
+        </button>
+        <button id="darkMode">
+          <i data-feather="moon"></i>
+        </button>
+      </div>
+
       <div class="galery-item">
         <!-- Pribadi -->
         <img src="./img/PRIBADI0.jpg" alt="ftPrib" />
